@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block mainblock %}
+    {% for animal in Animals %}
+        this animal is: {{ animal.name }} <br>
+    {% endfor %}
+{% endblock %}
